@@ -1,0 +1,28 @@
+.banner{
+    background-image: url("../../Images/header.jpg");
+    background-size: 60%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: left;
+}
+
+.banner-title {
+    margin-top: 40px;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.banner-text {
+    margin-top: 20px;
+    font-size: 23px;
+    color: rgb(58, 58, 58) ;
+}
+
+.btn-banner {
+    margin-top: 40px;
+    background-color: #4D5FE3;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}

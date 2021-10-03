@@ -1,0 +1,30 @@
+.card-box {
+    display: flex;
+    justify-content: left;
+    padding: 20px 30px 25px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+}
+.card-box:hover{
+    padding: 20px 25px;
+    border: 1px solid #4D5FE3;
+    border-bottom: 10px solid #4D5FE3;
+}
+.badge-img{
+    width: 60px;
+    height: 60px;
+}
+.card-title-box {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.card-title {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.card-text {
+    color: grey;
+}
