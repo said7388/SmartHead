@@ -1,0 +1,11 @@
+.NotFound {
+    width: 80%;
+    height: 80%;
+}
+
+.btn-notFound {
+    background-color: #FF4F5A;
+    font-weight: 600;
+    padding: 7px 10px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,28 @@
+.card-body {
+    padding: 15px;
+    text-align: left;
+}
+.course-img {
+    filter:brightness(80%);
+}
+.icon{
+    color: #ECB63D;
+}
+.author{
+    color: #4D5FE3;
+    font-size: 14px;
+}
+.title, .price{
+    font-size: 22px;
+    font-weight: bold;
+    color: #272D53;
+}
+.lessons {
+    color: #4D5FE3;
+    font-size: 14px;
+}
+
+.course-footer {
+    display: flex;
+    justify-content: space-between;
+}

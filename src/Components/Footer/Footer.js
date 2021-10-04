@@ -25,9 +25,6 @@ const Footer = () => {
             <a href='link'>About Us</a>
           </p>
           <p>
-            <a href='link'>Pricing</a>
-          </p>
-          <p>
             <a href='link'>Contact Us</a>
           </p>
         </div>
