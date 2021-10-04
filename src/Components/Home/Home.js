@@ -4,6 +4,7 @@ import Badges from '../Badge/Badge';
 import Banner from '../Banner/Banner';
 import Category from '../Category/Category';
 import Courses from '../Courses/Courses';
+import Instractor from '../Instractor/Instractor';
 
 const Home = () => {
     // This is our Home page
@@ -14,6 +15,7 @@ const Home = () => {
             <AboutCompany></AboutCompany>
             <Category></Category>
             <Courses></Courses>
+            <Instractor></Instractor>
         </div>
     );
 };
