@@ -9,12 +9,13 @@ const Header = () => {
     <div>
       <Navbar className="header" variant='dark'>
         <Container>
-          <Navbar.Brand href='#home'><img src={img} alt="" /></Navbar.Brand>
+          <Navbar.Brand href='#home'><Link to="/"><img src={img} alt="" /></Link></Navbar.Brand>
           <Nav className='me-50'>
             <Nav.Link><Link to='/home'>Home</Link></Nav.Link>
-            <Nav.Link><Link to='/home'>About Us</Link></Nav.Link>
-            <Nav.Link><Link to='/home'>Service</Link></Nav.Link>
-            <Nav.Link><Link to='/home'>Pricing</Link></Nav.Link>
+            <Nav.Link><Link to='/about'>About Us</Link></Nav.Link>
+            <Nav.Link><Link to='/service'>Service</Link></Nav.Link>
+            <Nav.Link><Link to='/courses'>Explore Courses</Link></Nav.Link>
+            <Nav.Link><Link to='/login'>Login</Link></Nav.Link>
           </Nav>
         </Container>
       </Navbar>

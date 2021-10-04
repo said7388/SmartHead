@@ -1,12 +1,6 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import "./Category.css";
-import img2 from "../../Images/course-7.jpg";
-import img1 from "../../Images/course-9.jpg";
-import img3 from "../../Images/course-4.jpg";
-import img4 from "../../Images/course-3.jpg";
-import img5 from "../../Images/course-6.jpg";
-
 const Category = () => {
   return (
     <div className='mt-5'>
@@ -16,7 +10,7 @@ const Category = () => {
           <Col>
             <Card>
               <div class='img-hover'>
-                <img className='img-fluid' src={img1} alt='' />
+                <img className='img-fluid' src="https://www.linkpicture.com/q/course-9.jpg" alt='' />
               </div>
               <div className='category-title'>
                 <p>Learning</p>
@@ -27,7 +21,7 @@ const Category = () => {
           <Col>
             <Card>
               <div class='img-hover'>
-                <img className='img-fluid' src={img2} alt='' />
+                <img className='img-fluid' src="https://www.linkpicture.com/q/course-7.jpg" alt='' />
               </div>
               <div className='category-title'>
                 <p>Learning</p>
@@ -40,7 +34,7 @@ const Category = () => {
           <Col>
             <Card>
               <div class='img-hover'>
-                <img className='img-fluid' src={img3} alt='' />
+                <img className='img-fluid' src="https://www.linkpicture.com/q/course-4.jpg" alt='' />
               </div>
               <div className='category-title'>
                 <p>Learning</p>
@@ -51,7 +45,7 @@ const Category = () => {
           <Col>
             <Card>
               <div class='img-hover'>
-                <img className='img-fluid' src={img4} alt='' />
+                <img className='img-fluid' src="https://www.linkpicture.com/q/course-3.jpg" alt='' />
               </div>
               <div className='category-title'>
                 <p>Learning</p>
@@ -62,7 +56,7 @@ const Category = () => {
           <Col>
             <Card>
               <div class='img-hover'>
-                <img className='img-fluid' src={img5} alt='' />
+                <img className='img-fluid' src="https://www.linkpicture.com/q/course-6.jpg" alt='' />
               </div>
               <div className='category-title'>
                 <p>Learning</p>

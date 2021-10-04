@@ -30,7 +30,7 @@ const AboutCompany = () => {
             <i class="far fa-check-circle"></i>  Find the best qualitfied teacher for you
             </p>
           </div>
-          <Link to='/home'>
+          <Link to='/courses'>
               <button className='btn btn-company'>View All Courses</button>
           </Link>
         </Col>

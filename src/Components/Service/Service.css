@@ -1,0 +1,40 @@
+.service{
+    background-color: #F2F8FB;
+    padding: 50px;
+    margin: 0;
+}
+.service-title{
+    font-size: 28px;
+    color: #263E70;
+    font-weight: 600;
+}
+.service-sub{
+    font-size: 20px;
+    font-weight: 700;
+    color: #263E70;
+}
+
+.icon {
+    color: #1981BF;
+    font-size: 40px;
+    padding-right: 20px;
+}
+.service-text {
+    color: #263E70;
+    font-size: 14px;
+}
+.service-info {
+    text-align: left;
+}
+
+.education-service {
+    color: #0980BF;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 30px;
+}
+.education-service-text{
+    text-align: left;
+    font-size: 20px;
+    color: #263E70;
+}

@@ -1,0 +1,36 @@
+.about-us{
+    background-color: #F7F9FA;
+}
+.about-title {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: Suisse Works;
+  color: #1c1d1f;
+  text-align: left;
+  margin-top: 100px;
+}
+.second-title {
+  font-size: 40px;
+  margin-top: 40px;
+  color: #1c1d1f;
+  font-family: Suisse Works;
+  font-weight: 600;
+}
+.text {
+  font-size: 19px;
+  color: #1c1d1f;
+}
+
+.about-info{
+    background-color: #5624D0;
+    padding: 20px 60px;
+}
+.about-info p {
+    color: white;
+}
+.col-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}

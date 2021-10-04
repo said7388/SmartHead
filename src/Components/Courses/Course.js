@@ -23,7 +23,7 @@ const Course = (props) => {
             </p>
             <p>
               <Rating
-                className='icon'
+                className='icon-star'
                 initialRating={course.rating}
                 emptySymbol='far fa-star'
                 fullSymbol='fas fa-star'
