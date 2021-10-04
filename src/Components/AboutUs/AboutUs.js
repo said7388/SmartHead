@@ -22,7 +22,7 @@ const AboutUs = () => {
         </Row>
         <p className='second-title'>Our origins</p>
         <p className='text'>
-          Growing up in a small Turkish village, Udemy founder Eren Bali had few
+          Growing up in a small Turkish village,SmartHead founder Eren Bali had few
           educational opportunities — until he got a computer. Fueled by his
           dream to compete in mathematics, he used the internet to learn his way
           to a silver medal in the International Math Olympiad.After learning

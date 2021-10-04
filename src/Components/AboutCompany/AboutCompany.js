@@ -12,27 +12,31 @@ const AboutCompany = () => {
         <Col>
           <img className='img-fluid' src={img} alt='' />
         </Col>
-        <Col className="description">
+        <Col className='description'>
           <p className='sub'>About SmartHead Company</p>
           <p className='company-title'>Welcome to the Online Learning</p>
           <div className='company-text'>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, simply
-              free text by injected humour, or randomised.
+              We help organizations of all types and sizes prepare for the path
+              ahead — wherever it leads. Our curated collection of business and
+              technical courses help companies, governments, and nonprofits go
+              further by placing learning at the center of their strategies.
             </p>
             <p>
-            <i class="far fa-check-circle"></i>  Get unlimited access to 66000+ of our top courses
+              <i class='far fa-check-circle'></i> Get unlimited access to 66000+
+              of our top courses
             </p>
             <p>
-            <i class="far fa-check-circle"></i>  Explore a variety of fresh educational topics
+              <i class='far fa-check-circle'></i> Explore a variety of fresh
+              educational topics
             </p>
             <p>
-            <i class="far fa-check-circle"></i>  Find the best qualitfied teacher for you
+              <i class='far fa-check-circle'></i> Find the best qualitfied
+              teacher for you
             </p>
           </div>
           <Link to='/courses'>
-              <button className='btn btn-company'>View All Courses</button>
+            <button className='btn btn-company'>View All Courses</button>
           </Link>
         </Col>
       </Row>
