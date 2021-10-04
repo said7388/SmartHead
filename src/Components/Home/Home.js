@@ -6,6 +6,7 @@ import Category from '../Category/Category';
 import Courses from '../Courses/Courses';
 
 const Home = () => {
+    // This is our Home page
     return (
         <div>
             <Banner></Banner>

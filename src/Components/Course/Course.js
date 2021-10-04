@@ -4,6 +4,7 @@ import Rating from "react-rating";
 import "./Course.css";
 
 const Course = (props) => {
+  // Recieved course data for design course card.
   const { course } = props;
   console.log(course);
   return (
@@ -22,6 +23,7 @@ const Course = (props) => {
               <i class='far fa-folder-open'></i> {course.lesson} Lessons
             </p>
             <p>
+              {/* Use React Rating */}
               <Rating
                 className='icon-star'
                 initialRating={course.rating}

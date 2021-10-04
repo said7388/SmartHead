@@ -5,11 +5,13 @@ import img from "../../Images/about-us.png";
 import Badges from "../Badge/Badge";
 
 const AboutUs = () => {
+  // This Components will be displayed Our AboutUs page
   return (
-    <div className="about-us">
+    <div className='about-us'>
       <div className='container'>
         <Row xs={1} md={2} className='g-4 px-4'>
           <Col>
+          {/* Header for AboutUs page */}
             <p className='about-title'>
               We share <br /> knowledge <br /> with the world
             </p>
@@ -29,6 +31,7 @@ const AboutUs = () => {
           accessible to all.
         </p>
       </div>
+      {/* Show here About Our service and Customers data */}
       <div className='about-info my-4 p-4'>
         <p className='second-title'>We just keep growing</p>
         <p className='text'>

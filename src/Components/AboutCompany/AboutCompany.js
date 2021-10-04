@@ -5,6 +5,7 @@ import img from "../../Images/course-1-600x680.jpg";
 import { Link } from "react-router-dom";
 
 const AboutCompany = () => {
+  // This Components will be displayed Our Company Features
   return (
     <div className='about-company container mt-5'>
       <Row xs={1} md={2} className='g-4'>

@@ -5,10 +5,12 @@ import img from "../../Images/footer_logo.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  // This our website Header
   return (
     <div>
       <Navbar className="header" variant='dark'>
         <Container>
+          {/* Here Logo and Header Navbar */}
           <Navbar.Brand href='#home'><Link to="/"><img src={img} alt="" /></Link></Navbar.Brand>
           <Nav className='me-50'>
             <Nav.Link><Link to='/home'>Home</Link></Nav.Link>

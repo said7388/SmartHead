@@ -3,6 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import "./Service.css";
 
 const Service = () => {
+  // This is our service component
   return (
     <div className='service'>
       <p className='service-title pb-4'>
@@ -17,6 +18,7 @@ const Service = () => {
           />
         </Col>
         <Col>
+        {/* Some boolet points */}
           <div className='service-info'>
             <p className='service-sub'>
               <span className='icon'>
@@ -60,6 +62,7 @@ const Service = () => {
       </Row>
       <Row xs={1} md={2} className='g-4 mt-5'>
         <Col>
+        {/* Another section for educational service */}
           <p className='education-service'>Education Services</p>
           <p className='education-service-text'>
             We work with small to large school districts to deliver thought

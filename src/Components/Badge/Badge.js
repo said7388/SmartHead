@@ -3,6 +3,7 @@ import { Card, Col, Row } from "react-bootstrap";
 import "./Badge.css";
 
 const Badges = () => {
+  // Create Fake Data For Badges.
   const badgeData = [
     {
       title: "Learn Skills",
@@ -22,6 +23,7 @@ const Badges = () => {
   ];
   return (
     <div className='container mb-4'>
+      {/* Run map on array elements and displayed data*/}
       <Row xs={1} md={3} className='g-4'>
         {badgeData.map((mama) => (
           <Col>

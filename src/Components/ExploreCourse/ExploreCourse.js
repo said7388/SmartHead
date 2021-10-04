@@ -1,10 +1,11 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 import useCourses from "../../Hooks/useCourses/useCourses";
-import Course from "../Courses/Course";
+import Course from "../Course/Course";
 import './ExploreCourse.css';
 
 const ExploreCourse = () => {
+  // use custom Hooks
   const [courses] = useCourses();
   return (
     <div className='container mt-5'>

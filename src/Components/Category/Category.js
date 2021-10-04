@@ -2,6 +2,7 @@ import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import "./Category.css";
 const Category = () => {
+  // Create a component that displayed top Category
   return (
     <div className='mt-5'>
       <h1 className="category-heading">Top Category</h1>

@@ -13,6 +13,7 @@ import Service from "./Components/Service/Service";
 function App() {
   return (
     <div className='App'>
+      {/* Start Router Here */}
       <Router>
         <Header></Header>
         <Switch>
@@ -28,17 +29,18 @@ function App() {
           <Route path='/about'>
             <AboutUs></AboutUs>
           </Route>
-
           <Route path='/login'>
             <Login></Login>
-            </Route>
+          </Route>
           <Route path='/courses'>
             <ExploreCourse></ExploreCourse>{" "}
           </Route>
+          {/* If Router not match then it will be show NotFound */}
           <Route path='/*'>
             <NotFound />
           </Route>
         </Switch>
+        {/* Footer */}
         <Footer></Footer>
       </Router>
     </div>

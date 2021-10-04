@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 const useCourses = () => {
+  // This is my custom Hooks Loading fake data from json
   const [courses, setCourses] = useState([]);
   useEffect(() => {
     fetch("./courses.JSON")

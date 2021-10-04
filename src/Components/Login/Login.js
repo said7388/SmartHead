@@ -3,9 +3,10 @@ import { Form, Button } from "react-bootstrap";
 import "./Login.css";
 
 const Login = () => {
+  // This is a login component made by Bootstrap.
   return (
-    <div className="container my-5">
-      <Form className="w-50 mx-auto form-box">
+    <div className='container my-5'>
+      <Form className='w-50 mx-auto form-box'>
         <Form.Group className='mb-3' controlId='formBasicEmail'>
           <Form.Label>Email address</Form.Label>
           <Form.Control type='email' placeholder='Enter email' />
