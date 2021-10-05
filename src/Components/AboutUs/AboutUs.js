@@ -65,7 +65,7 @@ const AboutUs = () => {
           technical courses help companies, governments, and nonprofits go
           further by placing learning at the center of their strategies.
         </p>
-        <button className='btn btn-primary'>Learn More</button>
+        <button className='btn btn-success'>Learn More</button>
       </div>
     </div>
   );

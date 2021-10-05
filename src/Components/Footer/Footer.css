@@ -2,6 +2,7 @@
     background-color: #092746;
     color: white;
     text-align: left;
+    margin-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -12,7 +13,7 @@
 }
 
 .footer-container {
-    padding: 50px 30px;
+    padding: 40px 30px;
 }
 
 a {

@@ -13,7 +13,7 @@ const Banner = () => {
         Get Access to 6000+ Courses from <br /> 1000+ Professional Teachers.
       </p>
       <Link to='/service'>
-        <button className='btn btn-banner'>Discover Now</button>
+        <button className='btn btn-success btn-regular'>Discover Now</button>
       </Link>
     </div>
   );

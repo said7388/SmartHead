@@ -12,7 +12,7 @@ const Instractor = () => {
                 <Col className="mt-5 pt-5 instractor">
                 <h2 className="instractor-title">Become an instructor</h2>
                 <p className="text">Instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</p>
-                <button className='btn btn-company'>Start Teaching</button>
+                <button className='btn btn-success btn-regular'>Start Teaching</button>
                 </Col>
             </Row>
         </div>

@@ -12,10 +12,11 @@
     color: #757783;
 }
 .fa-check-circle {
-    color: #4D5FE3;
+    color: #198754;
+    font-weight: 900;
 }
 .sub {
-    color: blue;
+    color: #198754;
     font-size: 24px;
     font-weight: 500;
 }

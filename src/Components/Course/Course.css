@@ -5,9 +5,10 @@
 }
 .course-img {
     filter:brightness(80%);
+    height: 250px;
 }
 .icon-star{
-    color: #ECB63D;
+    color: #198754;
 }
 .author{
     color: #4D5FE3;

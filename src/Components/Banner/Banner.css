@@ -20,10 +20,9 @@
     color: rgb(58, 58, 58) ;
 }
 
-.btn-banner {
+.btn-regular {
     margin-top: 40px;
-    background-color: #4D5FE3;
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
+    padding: 7px 10px;
+    font-size: 22px;
+    font-weight: 500;
 }

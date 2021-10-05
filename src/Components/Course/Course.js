@@ -16,13 +16,7 @@ const Course = (props) => {
             <i class='fas fa-chalkboard-teacher'></i> {course.name}
           </p>
           <p className='title'>{course.title}</p>
-          <p className='price'>{course.price}</p>
-          <hr />
-          <div className='course-footer'>
-            <p className='lessons'>
-              <i class='far fa-folder-open'></i> {course.lesson} Lessons
-            </p>
-            <p>
+          <p>
               {/* Use React Rating */}
               <Rating
                 className='icon-star'
@@ -32,6 +26,13 @@ const Course = (props) => {
                 readonly
               />
             </p>
+          <p className='price'>{course.price}</p>
+          <hr />
+          <div className='course-footer'>
+            <p className='lessons'>
+              <i class='far fa-folder-open'></i> {course.lesson} Lessons
+            </p>
+            <button className="btn btn-success">Enroll Now</button>
           </div>
         </Card.Body>
       </Card>

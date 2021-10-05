@@ -36,7 +36,7 @@ const AboutCompany = () => {
             </p>
           </div>
           <Link to='/courses'>
-            <button className='btn btn-company'>View All Courses</button>
+            <button className='btn btn-success btn-regular'>View All Courses</button>
           </Link>
         </Col>
       </Row>
