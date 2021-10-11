@@ -20,7 +20,7 @@ const ClientService = () => {
           <div className='service-info'>
             <p className='service-sub'>
               <span className='icon'>
-                <i class='fas fa-check-circle'></i>
+                <i className='fas fa-check-circle'></i>
               </span>
               Innovative
             </p>
@@ -33,7 +33,7 @@ const ClientService = () => {
           <div className='service-info'>
             <p className='service-sub'>
               <span className='icon'>
-                <i class='fas fa-check-circle'></i>
+                <i className='fas fa-check-circle'></i>
               </span>
               Safe
             </p>
@@ -46,7 +46,7 @@ const ClientService = () => {
           <div className='service-info'>
             <p className='service-sub'>
               <span className='icon'>
-                <i class='fas fa-check-circle'></i>
+                <i className='fas fa-check-circle'></i>
               </span>
               Collaborative
             </p>

@@ -13,11 +13,11 @@ const Header = () => {
           {/* Here Logo and Header Navbar */}
           <Navbar.Brand href='#home'><Link to="/"><img src={img} alt="" /></Link></Navbar.Brand>
           <Nav className='me-50'>
-            <Nav.Link><Link to='/home'>Home</Link></Nav.Link>
+            <Nav.Link><Link to='/home'><i class="fas fa-home"></i> Home</Link></Nav.Link>
             <Nav.Link><Link to='/about'>About Us</Link></Nav.Link>
             <Nav.Link><Link to='/service'>Service</Link></Nav.Link>
             <Nav.Link><Link to='/courses'>Explore Courses</Link></Nav.Link>
-            <Nav.Link><Link to='/login'>Login</Link></Nav.Link>
+            <Nav.Link><Link to='/login'><i class="fas fa-user"></i> Login</Link></Nav.Link>
           </Nav>
         </Container>
       </Navbar>

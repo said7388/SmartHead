@@ -1,6 +1,6 @@
 import React from "react";
-import "./Footer.css";
 import img from "../../Images/footer_logo.png";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -38,13 +38,13 @@ const Footer = () => {
           {/* Our Fake Adresses */}
           <p className='footer-title'>Our Contact</p>
           <p>
-            <i class='fas fa-map-marker-alt'></i>  350 Avenue, New York, NY 10001
+            <i className='fas fa-map-marker-alt'></i>  350 Avenue, New York, NY 10001
           </p>
           <p>
-            <i class='fas fa-envelope-open-text'></i>  info@example.com
+            <i className='fas fa-envelope-open-text'></i>  info@example.com
           </p>
           <p>
-            <i class='fas fa-phone'></i>  +8801834738881
+            <i className='fas fa-phone'></i>  +8801834738881
           </p>
         </div>
       </div>

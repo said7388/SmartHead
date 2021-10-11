@@ -1,8 +1,8 @@
 import React from "react";
-import "./AboutCompany.css";
 import { Col, Row } from "react-bootstrap";
-import img from "../../Images/course-1-600x680.jpg";
 import { Link } from "react-router-dom";
+import img from "../../Images/course-1-600x680.jpg";
+import "./AboutCompany.css";
 
 const AboutCompany = () => {
   // This Components will be displayed Our Company Features
@@ -23,15 +23,15 @@ const AboutCompany = () => {
               further by placing learning at the center of their strategies.
             </p>
             <p>
-              <i class='far fa-check-circle'></i> Get unlimited access to 66000+
+              <i className='far fa-check-circle'></i> Get unlimited access to 66000+
               of our top courses
             </p>
             <p>
-              <i class='far fa-check-circle'></i> Explore a variety of fresh
+              <i className='far fa-check-circle'></i> Explore a variety of fresh
               educational topics
             </p>
             <p>
-              <i class='far fa-check-circle'></i> Find the best qualitfied
+              <i className='far fa-check-circle'></i> Find the best qualitfied
               teacher for you
             </p>
           </div>

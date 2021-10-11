@@ -10,7 +10,7 @@ const Category = () => {
         <Row xs={1} md={2} className='g-4'>
           <Col>
             <Card>
-              <div class='img-hover'>
+              <div className='img-hover'>
                 <img className='img-fluid' src="https://www.linkpicture.com/q/course-9.jpg" alt='' />
               </div>
               <div className='category-title'>
@@ -21,7 +21,7 @@ const Category = () => {
           </Col>
           <Col>
             <Card>
-              <div class='img-hover'>
+              <div className='img-hover'>
                 <img className='img-fluid' src="https://www.linkpicture.com/q/course-7.jpg" alt='' />
               </div>
               <div className='category-title'>
@@ -34,7 +34,7 @@ const Category = () => {
         <Row xs={1} md={3} className='g-4 mt-2'>
           <Col>
             <Card>
-              <div class='img-hover'>
+              <div className='img-hover'>
                 <img className='img-fluid' src="https://www.linkpicture.com/q/course-4.jpg" alt='' />
               </div>
               <div className='category-title'>
@@ -45,7 +45,7 @@ const Category = () => {
           </Col>
           <Col>
             <Card>
-              <div class='img-hover'>
+              <div className='img-hover'>
                 <img className='img-fluid' src="https://www.linkpicture.com/q/course-3.jpg" alt='' />
               </div>
               <div className='category-title'>
@@ -56,7 +56,7 @@ const Category = () => {
           </Col>
           <Col>
             <Card>
-              <div class='img-hover'>
+              <div className='img-hover'>
                 <img className='img-fluid' src="https://www.linkpicture.com/q/course-6.jpg" alt='' />
               </div>
               <div className='category-title'>

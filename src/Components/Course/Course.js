@@ -13,7 +13,7 @@ const Course = (props) => {
         <Card.Img className="course-img" variant='top' src={course.picture} />
         <Card.Body className='card-body'>
           <p className='author'>
-            <i class='fas fa-chalkboard-teacher'></i> {course.name}
+            <i className='fas fa-chalkboard-teacher'></i> {course.name}
           </p>
           <p className='title'>{course.title}</p>
           <p>
@@ -30,7 +30,7 @@ const Course = (props) => {
           <hr />
           <div className='course-footer'>
             <p className='lessons'>
-              <i class='far fa-folder-open'></i> {course.lesson} Lessons
+              <i className='far fa-folder-open'></i> {course.lesson} Lessons
             </p>
             <button className="btn btn-success">Enroll Now</button>
           </div>
